@@ -23,16 +23,18 @@ I use these dotfiles on EndeavourOS, but they will probably work fine on other d
 - Picom
 - rofi
 - i3lock
+- playerctl
 
 Here's one massive fucking pacman command to install everything on the above list (Arch based distros only):
 ```
-sudo pacman -S --needed git stow i3-wm zsh zsh-syntax-highlighting starship alacritty fastfetch arandr polybar noto-fonts-cjk nitrogen lxsession lxappearance picom rofi i3lock
+sudo pacman -S --needed git stow i3-wm zsh zsh-syntax-highlighting starship alacritty fastfetch arandr polybar noto-fonts-cjk nitrogen lxsession lxappearance picom rofi i3lock playerctl
 ```
 
 ## Requirements you can't get through pacman.
 
 - [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Hack.zip) (Extract in `/usr/share/fonts`)
 - [polybar-spotify](https://github.com/PrayagS/polybar-spotify) <details><summary>Click here for notes.</summary><br>A Polybar module that provides Spotify status and controls, my Polybar config expects it to be in ~/github/, if you clone this repo somewhere else, you'll have to change the path in .config/polybar/config.ini. If you use a player other than Spotify, you can change where it pulls its status from in get_spotify_status.sh, my own one is set to "chromium" for Tidal-HiFi.</details>
+- [zscroll](https://github.com/noctuid/zscroll) (Install `zscroll-git` from the AUR. If your distro didn't come with an AUR helper, go through the steps to set up [yay](https://github.com/Jguer/yay))
 - [Catppuccin cursors](https://github.com/catppuccin/cursors) (Follow the instructions in the readme and use lxappearance to set them)
 - [Catppuccin Papirus folders](https://github.com/catppuccin/papirus-folders) (Follow the instructions in the readme and use lxappearance to set them)
 - [Any other Catppuccin themes](https://catppuccin.com/ports) (Find and install the ones you need for the programs you use so that all their appearances match, the variant you want is Mocha Sapphire)
