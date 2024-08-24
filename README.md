@@ -4,6 +4,8 @@ This repo contains the dotfiles for my desktop PC setup, a set of similar dotfil
 
 I use these dotfiles on EndeavourOS, but they will probably work fine on other distros.
 
+If you are Gabe, some extra dotfiles containing sensitive info are stored in your private self hosted git repo. If you are not Gabe then you can't have these, but none of them are necessary for a functional setup alike my own.
+
 ## Requirements, dependencies, and the programs these dots contain configs for.
 
 - Git
