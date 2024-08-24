@@ -22,7 +22,7 @@ If you are Gabe, some extra dotfiles containing sensitive info are stored in you
 - Noto Fonts CJK
 - Nitrogen (You will have to manually use this to choose your wallpaper after installation, my wallpapers aren't included in the dotfiles as they are modified personal photos)
 - lxsession
-- lxappearance
+- lxappearance (Use this to set the theme to Catppuccin Mocha Sapphire, the theme is included in these dotfiles)
 - Picom
 - rofi
 - i3lock
@@ -36,6 +36,9 @@ sudo pacman -S --needed git stow i3wm zsh zsh-syntax-highlighting starship alacr
 
 - [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Hack.zip) (Extract in `/usr/share/fonts`)
 - [polybar-spotify](https://github.com/PrayagS/polybar-spotify) <details><summary>Click here for notes.</summary><br>A Polybar module that provides Spotify status and controls, my Polybar config expects it to be in ~/github/, if you clone this repo somewhere else, you'll have to change the path in .config/polybar/config.ini. If you use a player other than Spotify, you can change where it pulls its status from in get_spotify_status.sh, my own one is set to "chromium" for Tidal-HiFi.</details>
+- [Catppuccin cursors](https://github.com/catppuccin/cursors) (Follow the instructions in the readme and use lxappearance to set them)
+- [Catppuccin Papirus folders](https://github.com/catppuccin/papirus-folders) (Follow the instructions in the readme and use lxappearance to set them)
+- [Any other Catppuccin themes](https://catppuccin.com/ports) (Find and install the ones you need for the programs you use so that all their appearances match, the variant you want is Mocha Sapphire)
 
 ## Installation
 
