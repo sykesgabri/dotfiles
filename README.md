@@ -8,6 +8,7 @@ I use these dotfiles on EndeavourOS, but they will probably work fine on other d
 
 - Git
 - Stow
+- i3 Window Manager
 - zsh
 - zsh-syntax-highlighting
 - Starship
@@ -18,7 +19,7 @@ I use these dotfiles on EndeavourOS, but they will probably work fine on other d
 
 Here's one massive fucking pacman command to install everything on the above list (Arch based distros only):
 ```
-sudo pacman -S --needed git stow zsh zsh-syntax-highlighting starship alacritty fastfetch xrandr arandr
+sudo pacman -S --needed git stow i3wm zsh zsh-syntax-highlighting starship alacritty fastfetch xrandr arandr
 ```
 
 ## Requirements you can't get through pacman.
