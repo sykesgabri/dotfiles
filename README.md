@@ -16,15 +16,23 @@ I use these dotfiles on EndeavourOS, but they will probably work fine on other d
 - fastfetch
 - xrandr
 - arandr
+- polybar
+- Noto Fonts CJK
+- Nitrogen
+- lxsession
+- lxappearance
+- Picom
+- rofi
 
 Here's one massive fucking pacman command to install everything on the above list (Arch based distros only):
 ```
-sudo pacman -S --needed git stow i3wm zsh zsh-syntax-highlighting starship alacritty fastfetch xrandr arandr
+sudo pacman -S --needed git stow i3wm zsh zsh-syntax-highlighting starship alacritty fastfetch xrandr arandr polybar noto-fonts-cjk nitrogen lxsession lxappearance picom rofi
 ```
 
 ## Requirements you can't get through pacman.
 
 - [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Hack.zip) (Extract in `/usr/share/fonts`)
+- [polybar-spotify](https://github.com/PrayagS/polybar-spotify) <details><summary>Click here for notes.</summary><br>A Polybar module that provides Spotify status and controls, my Polybar config expects it to be in ~/github/, if you clone this repo somewhere else, you'll have to change the path in .config/polybar/config.ini. If you use a player other than Spotify, you can change where it pulls its status from in get_spotify_status.sh, my own one is set to "chromium" for Tidal-HiFi.</details>
 
 ## Installation
 
