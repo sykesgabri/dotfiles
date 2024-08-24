@@ -15,7 +15,7 @@ I use these dotfiles on EndeavourOS, but they will probably work fine on other d
 - fastfetch
 
 Here's one massive fucking pacman command to install everything on the above list:
-`sudo pacman -S --needed git stow zsh zsh-syntax-highlighting starship alacritty fastfetch`
+```sudo pacman -S --needed git stow zsh zsh-syntax-highlighting starship alacritty fastfetch```
 
 ## Requirements you can't get through pacman.
 
