@@ -9,7 +9,7 @@ I use these dotfiles on EndeavourOS, but they will probably work fine on other d
 - Git
 - Stow
 - i3 Window Manager
-- zsh
+- zsh (Execute `chsh -s /bin/zsh` then log out and back in to make zsh your default shell)
 - zsh-syntax-highlighting
 - Starship
 - Alacritty
