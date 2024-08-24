@@ -14,7 +14,6 @@ I use these dotfiles on EndeavourOS, but they will probably work fine on other d
 - Starship
 - Alacritty
 - fastfetch
-- xrandr
 - arandr
 - polybar
 - Noto Fonts CJK
@@ -27,7 +26,7 @@ I use these dotfiles on EndeavourOS, but they will probably work fine on other d
 
 Here's one massive fucking pacman command to install everything on the above list (Arch based distros only):
 ```
-sudo pacman -S --needed git stow i3-wm zsh zsh-syntax-highlighting starship alacritty fastfetch xrandr arandr polybar noto-fonts-cjk nitrogen lxsession lxappearance picom rofi i3lock
+sudo pacman -S --needed git stow i3-wm zsh zsh-syntax-highlighting starship alacritty fastfetch arandr polybar noto-fonts-cjk nitrogen lxsession lxappearance picom rofi i3lock
 ```
 
 ## Requirements you can't get through pacman.
