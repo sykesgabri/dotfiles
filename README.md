@@ -60,6 +60,7 @@ The reason my .mozilla folder is not included in the dots is a combination of ju
 
 <details>
 <summary>Firefox settings:</summary><br>
+
 ### General
 
 <img src="assets/general1.png">
