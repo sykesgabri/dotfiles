@@ -83,6 +83,8 @@ The reason my .mozilla folder is not included in the dots is a combination of ju
 <img src="assets/prisec3.png"><br>
 <img src="assets/prisec4.png">
 
+Set all permissions to auto disallow (you can still manually enable them on a per site basis when needed), and autoplay to block audio and video.
+
 No syncing, no importing from previous browser, set Firefox to default browser.
 
 </details>
