@@ -55,7 +55,7 @@
         },
         "break",
         {
-            "type": "host",
+            "type": "board",
             "format": "{2}",
             "key": "PC   ",
             "keyColor": "33",
