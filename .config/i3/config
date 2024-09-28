@@ -103,8 +103,8 @@ bindsym $mod+e layout toggle split
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
 
-# change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+# take screenshot
+bindsym $mod+space exec flameshot gui --clipboard
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -202,8 +202,6 @@ gaps outer 4px
 exec xset s off && xset -dpms
 exec lxsession
 exec picom
-exec /home/gabri/.screenlayout/./cum.sh
+exec /home/gabri/.screenlayout/./cum2.sh
 exec polybar
 exec nitrogen --restore
-exec .local/bin/streamdeck
-exec protonvpn
