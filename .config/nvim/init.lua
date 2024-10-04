@@ -1,22 +1,17 @@
--- disable netrw
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-
 -- lazy plugin manager
 require("config.lazy")
 
 -- catppuccin
-require("catppuccin")
+require("catppuccin").setup({
+        flavour = "mocha",
+})
 
--- nvim-web-devicons
-require("nvim-web-devicons").setup()
-
--- nvim-tree
-require("nvim-tree").setup()
-
--- set correct catppuccin colour scheme
-vim.cmd.colorscheme "catppuccin-mocha"
+vim.cmd.colorscheme "catppuccin"
 
 -- 4 space tabs are the only correct tabs
 vim.opt.tabstop = 4
 vim.opt.expandtab = true
+
+-- Enable line numbers and disable word wrap
+vim.cmd("set number")
+vim.cmd("set nowrap")
