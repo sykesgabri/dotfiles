@@ -24,10 +24,11 @@ I use these dotfiles on EndeavourOS, but they will probably work fine on other d
 - rofi
 - i3lock
 - playerctl
+- Neovim
 
 Here's one massive fucking pacman command to install everything on the above list (Arch based distros only):
 ```
-sudo pacman -S --needed git stow i3-wm zsh zsh-syntax-highlighting starship alacritty fastfetch arandr polybar noto-fonts-cjk nitrogen lxsession lxappearance picom rofi i3lock playerctl
+sudo pacman -S --needed git stow i3-wm zsh zsh-syntax-highlighting starship alacritty fastfetch arandr polybar noto-fonts-cjk nitrogen lxsession lxappearance picom rofi i3lock playerctl nvim
 ```
 
 ## Requirements you can't get through pacman.
