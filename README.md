@@ -2,7 +2,7 @@
 
 This repo contains the dotfiles for my desktop PC setup, a set of similar dotfiles with some slight modifications for laptops can be found [here](https://github.com/sykesgabri/laptop-dotfiles).
 
-I use these dotfiles on EndeavourOS, but they will probably work fine on other distros.
+I use these dotfiles on Arch btw, and have tested them on EndeavourOS, but they will probably work fine on other distros.
 
 ## Requirements, dependencies, and the programs these dots contain configs for.
 
