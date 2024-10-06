@@ -1,4 +1,4 @@
-# Gabe's dotfiles
+# Gabe's dotfiles | [GitLab Mirror](https://gitlab.com/sykesgabri/dotfiles)
 
 This repo contains the dotfiles for my desktop PC setup, a set of similar dotfiles with some slight modifications for laptops can be found [here](https://github.com/sykesgabri/laptop-dotfiles).
 
