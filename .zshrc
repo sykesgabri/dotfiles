@@ -306,3 +306,6 @@ fastfetch
 eval "$(starship init zsh)"
 
 export PATH=$PATH:/home/gabri/.spicetify
+
+# Created by `pipx` on 2024-10-25 13:45:35
+export PATH="$PATH:/home/gabri/.local/bin"
