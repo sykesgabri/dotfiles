@@ -202,6 +202,6 @@ gaps outer 4px
 exec xset s off && xset -dpms
 exec lxsession
 exec picom
-exec /home/gabri/.screenlayout/./cum2.sh
+exec /home/gabri/.screenlayout/./cum.sh
 exec polybar
 exec nitrogen --restore
