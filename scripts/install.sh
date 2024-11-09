@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# THIS IS NOT COMPLETE YET AND SHOULDN'T BE USED
+
 REPO_URL="https://github.com/sykesgabri/dotfiles.git"
 REPO_SSH="git@github.com:sykesgabri/dotfiles.git"
 DOTFILES_DIR="$HOME/dotfiles"
